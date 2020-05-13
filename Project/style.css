@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+header {
+	width: 100%;
+	height: 50px;
+	background-color: #02bcf5;
+}
+header ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+li {
+	line-height: 30px;
+	font-size: 20px;
+	margin-right: 30px;
+	margin-top: 10px;
+	display: inline;
+}
+nav {
+	height: 100px;
+	background-color: white;
+}
+.icon1 {
+	float: left;
+	margin-left: 70px;
+}
+.icon2 {
+	float: left;
+	margin-left: 5px;
+}
+.navbar {
+	font-family: Arial;
+	color: black;
+	float: right;
+	margin-right: 30px;
+	text-align: center;
+	line-height: 20px;
+}
+li a{
+	text-decoration: none;
+}
+.navbar a {
+	font-family: forte;
+	color: black;
+	float: right;
+	margin-right: 30px;
+	text-align: center;
+	line-height: 80px;
+}
+.navbar a:hover {
+	/*color: white;
+	background-color: #02bcf5;*/
+	margin: 0px;
+	font-weight: bold;
+}
+.logo {
+	float: left;
+	margin-left: 50px;
+	line-height: 100px;
+}
+main {
+	width: 100%;
+	height: 300px;
+}
+#banner {
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#banner img{
+	width: 100%;
+	height: 500px;
+}
+.service1 {
+	float: left;
+	width: 400px;
+	height: 200px;
+	margin-left: 20px;
+}
+.service2 {
+	float: left;
+	width: 400px;
+	height: 200px;
+	margin-left: 60px;
+}
+.service3 {
+	float: right;
+	width: 400px;
+	height: 200px;
+	margin-right: 20px;
+}
+.img-text1 {
+	position: absolute;
+	opacity: 0.5;	
+	top: 1125px;
+	left: -9.5px;
+	font-size: 30px;
+	color: solid black;
+	font-weight: bold;
+	margin: 30px;
+	padding: 20px;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+.img-text2 {
+	position: absolute;
+	opacity: 0.5;	
+	top: 1125px;
+	left: 470px;
+	font-size: 30px;
+	color: solid black;
+	font-weight: bold;
+	margin: 30px;
+	padding: 20px;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+.img-text3 {
+	position: absolute;
+	opacity: 0.5;	
+	top: 1105px;
+	left: 910px;
+	font-size: 30px;
+	font-weight: bold;
+	color:  solid black;
+	margin: 30px;
+	padding: 20px;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+}
+/*.content {
+	color: black;
+	text-align: center;
+}*/
